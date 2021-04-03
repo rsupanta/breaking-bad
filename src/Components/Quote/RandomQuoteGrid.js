@@ -1,12 +1,11 @@
-import React from "react";
-import RandomQuote from "./RandomQuoteItem";
+import React from 'react';
+import RandomQuote from './RandomQuoteItem';
 
 const RandomQuoteGrid = ({ items, isLoading }) => {
-  console.log(items);
   return isLoading ? (
-    ""
+    ''
   ) : (
-    <section className="cards">
+    <section className='cards'>
       {items.map((item) => (
         <RandomQuote key={item.quote_id} item={item}></RandomQuote>
       ))}
