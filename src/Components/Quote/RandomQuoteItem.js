@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 const RandomQuoteItem = ({ item }) => {
   return (
-    <div className="card">
+    <div className='card randomQuote'>
       <h1>Random Quote</h1>
       <ul>
         <li>

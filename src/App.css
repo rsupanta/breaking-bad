@@ -6,7 +6,7 @@
 
 html,
 body {
-  background: #000 url("img/bg.jpg") no-repeat center center/cover;
+  background: #000 url('img/bg.jpg') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +51,7 @@ header img {
   height: 100px;
 }
 
-input[type="text"] {
+input[type='text'] {
   display: block;
   padding: 10px;
   font-size: 20px;
@@ -130,4 +130,33 @@ input[type="text"] {
   .cards {
     grid-template-columns: 1fr;
   }
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 25px;
+  background-color: #0f2a17;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  padding: 10px;
+}
+
+footer a {
+  color: #3fb573;
+}
+
+.randomQuote {
+  height: auto;
+}
+
+.tagline {
+  text-align: center;
+  padding-top: 2px;
+  color: rgba(255, 255, 255, 0.538);
 }
