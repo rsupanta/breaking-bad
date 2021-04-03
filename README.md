@@ -1,3 +1,8 @@
+This app created with React.js and data fetched from Breaking Bad API.
+Breaking Bad app gives information about characters from Breaking Bad TV show.
+
+To know more visit live site [Breaking Bad App](https://rsupanta-bb.netlify.app/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
