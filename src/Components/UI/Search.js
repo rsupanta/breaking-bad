@@ -21,7 +21,7 @@ const Search = ({ getQuery }) => {
         />
       </form>
       <p class='tagline'>
-        Learn more about your favorite characters from Breaking Bad...
+        Learn about your favorite characters from Breaking Bad...
       </p>
     </section>
   );
